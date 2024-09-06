@@ -4,7 +4,7 @@ import os
 from utilities.chatbot import ChatBot
 
 def save_uploaded_file(uploaded_file):
-    temp_dir = "tempDir"
+    temp_dir = "data/for_uploads"
     if not os.path.exists(temp_dir):
         os.makedirs(temp_dir)
     file_path = os.path.join(temp_dir, uploaded_file.name)
