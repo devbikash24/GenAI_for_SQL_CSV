@@ -1,0 +1,9 @@
+streamlit
+langchain
+langchain_community
+langchain_core
+pandas
+pyprojroot
+python-dotenv
+PyYAML
+SQLAlchemy
